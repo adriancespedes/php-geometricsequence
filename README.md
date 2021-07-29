@@ -1,4 +1,4 @@
-## QuickSort
+## Geometric Sequence
 PHP Geometric Sequence Array Implementation
 
 ## Requirements
