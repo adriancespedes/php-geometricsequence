@@ -1,0 +1,16 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use GeometricSequence\GeometricSequence;
+
+echo "Checking if: 2, 6, 18, 54 is a sequence";
+$check = GeometricSequence::checkGeometricSequence([2, 6, 18, 54]);
+echo PHP_EOL . "Result is: ";
+echo $check ? ('true' . PHP_EOL) : ('false' . PHP_EOL);
+
+echo "Checking if: 12, 4, 58, 78 is a sequence";
+$check = GeometricSequence::checkGeometricSequence([12, 4, 58, 78]);
+echo PHP_EOL . "Result is: ";
+echo $check ? ('true' . PHP_EOL) : ('false' . PHP_EOL);
